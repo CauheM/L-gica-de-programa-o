@@ -7,7 +7,7 @@ void setup()
 {
  Serial.begin(9600);
  Serial.println("bem vindo a tabuada");
- Serial.println("escolha um numero, para pdemos calcular"); 
+ Serial.println("escolha um numero, para podemos calcular"); 
  while ( ! Serial.available()); 
  ne = Serial.parseInt(); 
  Serial.println("a tabuada de " + String(ne) + " eh");
