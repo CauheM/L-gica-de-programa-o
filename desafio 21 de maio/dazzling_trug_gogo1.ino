@@ -15,7 +15,7 @@ void loop()
   while ( ! Serial.available());
   nome[i] = Serial.readString();
   
-  Serial.println("coloque o email do " + nome[i]);
+  Serial.println("coloque o email do(a) " + nome[i]);
   while ( ! Serial.available());
   email[i] = Serial.readString();
   
